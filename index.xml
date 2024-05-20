@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <journal-meta>
+      <journal-id/>
+      <journal-title-group>
+        <journal-title>BARG Curtin University</journal-title>
+      </journal-title-group>
+      <issn/>
+      <publisher>
+        <publisher-name/>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>The Case for Specialised AI Models: Overcoming the
+Limitations of Large Language Models (LLMs)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">0000-0002-0950-6396</contrib-id>
+          <name>
+            <surname>Borck</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <string-name>Michael Borck</string-name>
+          <email>michael.borck@curtin.edu.au</email>
+          <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="https://credit.niso.org" vocab-term="project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
+administration</role>
+          <role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role>Visualisation</role>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution-wrap>
+          <institution>Business Information Systems, Curtin University, Perth
+Australia</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1">michael.borck@curtin.edu.au</corresp>
+      </author-notes>
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-20">
+        <year>2024</year>
+        <month>5</month>
+        <day>20</day>
+      </pub-date>
+      <history/>
+      <abstract>
+        <p>“Large language models (LLMs) have showcased remarkable capabilities
+in natural language processing, yet their performance often falters in
+highly specialised tasks due to inherent limitations in speed, cost,
+predictability, and customisation. This white paper argues for the
+adoption of specialised AI models as a superior alternative for
+domain-specific challenges. Through a case study demonstrating the
+successful application of a custom-trained model for converting Figma
+designs to code, this paper highlights the significant advantages of
+specialised models in terms of efficiency, cost reduction, and tailored
+performance. By advocating for a nuanced approach that combines
+traditional coding, specialised models, and LLMs when appropriate, this
+work provides a comprehensive guide to achieving optimal AI solutions
+for complex real-world problems.”</p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <kwd>Specialised AI</kwd>
+        <kwd>Large Language Models (LLMs)</kwd>
+        <kwd>Figma</kwd>
+        <kwd>Code Generation</kwd>
+        <kwd>Customisation</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="introduction">
+      <title>1 Introduction</title>
+      <p>The advent of large language models (LLMs) has revolutionised the
+  field of natural language processing (NLP), enabling AI systems to
+  perform tasks such as language translation, text summarisation, and
+  question-answering with remarkable proficiency. However, when it comes
+  to solving complex, domain-specific problems, LLMs often exhibit
+  limitations in terms of speed, cost, predictability, and
+  customisation.</p>
+      <p>This paper posits that training specialised AI models, tailored to
+  address specific tasks, can offer a compelling alternative to relying
+  solely on LLMs. By focusing on a narrower problem domain and
+  optimising the model architecture and training data accordingly,
+  developers can achieve superior performance, lower costs, and greater
+  control over the model’s behaviour.</p>
+    </sec>
+    <sec id="case-study-figma-design-to-code-conversion">
+      <title>2 Case Study: Figma Design to Code Conversion</title>
+      <p>To illustrate the potential benefits of specialised AI models, we
+  present a case study involving the challenge of automatically
+  converting Figma designs into high-quality code. Initial attempts to
+  leverage LLMs for this task yielded disappointing results due to the
+  models’ slow speed, high cost, unpredictable behaviour, and limited
+  customisation options.</p>
+      <p>In response, we developed a custom AI model specifically designed
+  for this purpose. The model was trained on a large dataset of Figma
+  designs and corresponding code snippets, and its architecture was
+  optimised to address the specific challenges associated with this
+  task.</p>
+      <p>The results were impressive. The specialised AI model proved to be
+  over 1,000 times faster and cheaper than using an LLM. Furthermore, it
+  outperformed the LLM in terms of accuracy, predictability,
+  reliability, and customisation.</p>
+    </sec>
+    <sec id="methodology">
+      <title>3 Methodology</title>
+      <p>The development of the specialised AI model involved several key
+  steps:</p>
+      <list list-type="order">
+        <list-item>
+          <p><bold>Problem Decomposition:</bold> The complex task of Figma
+      design to code conversion was broken down into smaller, more
+      manageable sub-tasks, such as image identification, layout
+      hierarchy generation, style extraction, and basic code
+      generation.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Traditional Code:</bold> Whenever possible, traditional
+      code was used to solve sub-tasks that did not require AI. This
+      approach ensured maximum speed, efficiency, and
+      predictability.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Specialised Model Training:</bold> For sub-tasks that
+      could not be adequately addressed with traditional code,
+      specialised AI models were trained using carefully curated
+      datasets and optimised model architectures.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Hybrid Approach:</bold> In certain cases, a hybrid
+      approach was adopted, combining the strengths of traditional code,
+      specialised models, and LLMs. This allowed us to leverage the
+      unique capabilities of each tool to achieve optimal results.</p>
+        </list-item>
+      </list>
+    </sec>
+    <sec id="results-and-discussion">
+      <title>4 Results and Discussion</title>
+      <p>The specialised AI model developed for Figma design to code
+  conversion significantly outperformed the LLM-based approach in
+  several key areas:</p>
+      <list list-type="bullet">
+        <list-item>
+          <p><bold>Speed:</bold> The specialised model was over 1,000 times
+      faster than the LLM, enabling near-instantaneous code
+      generation.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Cost:</bold> The specialised model was over 1,000 times
+      cheaper than the LLM, making it a more cost-effective solution for
+      businesses and individuals.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Predictability:</bold> The specialised model exhibited
+      more predictable behaviour than the LLM, making it easier to
+      understand and control its output.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Reliability:</bold> The specialised model was more
+      reliable than the LLM, producing consistent results across a wide
+      range of Figma designs.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Customisation:</bold> The specialised model was more
+      customisable than the LLM, allowing users to tailor its output to
+      their specific needs and preferences.</p>
+        </list-item>
+      </list>
+    </sec>
+    <sec id="conclusion">
+      <title>5 Conclusion</title>
+      <p>This paper has demonstrated the potential advantages of training
+  specialised AI models over relying solely on large language models for
+  complex, domain-specific tasks. While LLMs have their place in the AI
+  landscape, specialised models offer superior performance, lower costs,
+  and greater control for certain applications. By carefully breaking
+  down problems, utilising traditional code whenever possible, and
+  training specialised models on curated datasets, developers can unlock
+  the full potential of AI to solve real-world challenges.</p>
+    </sec>
+  </body>
+  <back>
+</back>
+</article>
