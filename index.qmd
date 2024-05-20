@@ -1,5 +1,5 @@
 ---
-title: "Developing Large Language Models from Scratch: A Comprehensive Guide"
+title: "The Case for Specialised AI Models: Overcoming the Limitations of Large Language Models (LLMs)"
 authors:
 author:
   - name: Michael Borck
@@ -25,7 +25,7 @@ number-sections: true
 
 **White Paper**
 
-**Title: The Case for Specialized AI Models: Overcoming the Limitations of Large Language Models (LLMs)**
+**Title: **
 
 **Abstract**
 
