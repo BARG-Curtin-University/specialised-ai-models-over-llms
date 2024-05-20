@@ -1,0 +1,80 @@
+---
+title: "Developing Large Language Models from Scratch: A Comprehensive Guide"
+authors:
+author:
+  - name: Michael Borck
+    affiliation: Business Information Systems, Curtin University, Perth Australia
+    orcid: 0000-0002-0950-6396
+    corresponding: true
+    email: michael.borck@curtin.edu.au
+    roles:
+      - Investigation
+      - Project administration
+      - Software
+      - Visualisation
+keywords:
+abstract: | 
+plain-language-summary: | 
+key-points:
+date: last-modified
+bibliography: references.bib
+citation:
+  container-title: BARG Curtin University
+number-sections: true
+---
+
+**White Paper**
+
+**Title: The Case for Specialized AI Models: Overcoming the Limitations of Large Language Models (LLMs)**
+
+**Abstract**
+
+This paper explores the challenges and opportunities associated with developing artificial intelligence (AI) solutions for specific tasks. While large language models (LLMs) like GPT-3 and GPT-4 have demonstrated impressive capabilities in general natural language processing, their performance often falls short when applied to highly specialized domains or complex problem spaces. This paper argues that training custom, specialized AI models can offer significant advantages in terms of speed, cost-effectiveness, predictability, reliability, and customization. We present a case study illustrating how a custom-trained AI model was used to address the challenge of automatically converting Figma designs into high-quality code, highlighting the benefits of this approach over using an off-the-shelf LLM.
+
+**Introduction**
+
+The advent of large language models (LLMs) has revolutionized the field of natural language processing (NLP), enabling AI systems to perform tasks such as language translation, text summarization, and question-answering with remarkable proficiency. However, when it comes to solving complex, domain-specific problems, LLMs often exhibit limitations in terms of speed, cost, predictability, and customization.
+
+This paper posits that training specialized AI models, tailored to address specific tasks, can offer a compelling alternative to relying solely on LLMs. By focusing on a narrower problem domain and optimizing the model architecture and training data accordingly, developers can achieve superior performance, lower costs, and greater control over the model's behavior.
+
+**Case Study: Figma Design to Code Conversion**
+
+To illustrate the potential benefits of specialized AI models, we present a case study involving the challenge of automatically converting Figma designs into high-quality code. Initial attempts to leverage LLMs for this task yielded disappointing results due to the models' slow speed, high cost, unpredictable behavior, and limited customization options.
+
+In response, we developed a custom AI model specifically designed for this purpose. The model was trained on a large dataset of Figma designs and corresponding code snippets, and its architecture was optimized to address the specific challenges associated with this task.
+
+The results were impressive. The specialized AI model proved to be over 1,000 times faster and cheaper than using an LLM. Furthermore, it outperformed the LLM in terms of accuracy, predictability, reliability, and customization.
+
+**Methodology**
+
+The development of the specialized AI model involved several key steps:
+
+1. **Problem Decomposition:** The complex task of Figma design to code conversion was broken down into smaller, more manageable sub-tasks, such as image identification, layout hierarchy generation, style extraction, and basic code generation.
+
+2. **Traditional Code:** Whenever possible, traditional code was used to solve sub-tasks that did not require AI. This approach ensured maximum speed, efficiency, and predictability.
+
+3. **Specialized Model Training:** For sub-tasks that could not be adequately addressed with traditional code, specialized AI models were trained using carefully curated datasets and optimized model architectures.
+
+4. **Hybrid Approach:** In certain cases, a hybrid approach was adopted, combining the strengths of traditional code, specialized models, and LLMs. This allowed us to leverage the unique capabilities of each tool to achieve optimal results.
+
+**Results and Discussion**
+
+The specialized AI model developed for Figma design to code conversion significantly outperformed the LLM-based approach in several key areas:
+
+* **Speed:** The specialized model was over 1,000 times faster than the LLM, enabling near-instantaneous code generation.
+
+* **Cost:** The specialized model was over 1,000 times cheaper than the LLM, making it a more cost-effective solution for businesses and individuals.
+
+* **Predictability:** The specialized model exhibited more predictable behavior than the LLM, making it easier to understand and control its output.
+
+* **Reliability:** The specialized model was more reliable than the LLM, producing consistent results across a wide range of Figma designs.
+
+* **Customization:** The specialized model was more customizable than the LLM, allowing users to tailor its output to their specific needs and preferences.
+
+**Conclusion**
+
+This paper has demonstrated the potential advantages of training specialized AI models over relying solely on large language models for complex, domain-specific tasks. While LLMs have their place in the AI landscape, specialized models offer superior performance, lower costs, and greater control for certain applications. By carefully breaking down problems, utilizing traditional code whenever possible, and training specialized models on curated datasets, developers can unlock the full potential of AI to solve real-world challenges.
+
+
+## Section
+This is a simple placeholder for the manuscript's main document [@knuth84].
